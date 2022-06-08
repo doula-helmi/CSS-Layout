@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
 
 html {
   font-family: sans-serif;
@@ -7,6 +7,7 @@ html {
 
 body {
   padding-top: 100px;
+  margin: 0;
 }
 
 a {
@@ -61,12 +62,15 @@ nav {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: 2rem;
   color: #00b39b;
   text-align: center;
   font-weight: 300;
-  font-family: Work Sans,Arial,sans-serif;
+  font-family: Work Sans, Arial, sans-serif;
 }
 
 .dropdown-list {
@@ -248,7 +252,7 @@ h1, h2, h3, h4 {
   top: 39%;
   background: url(https://www.docplanner.com/img/logo.png) no-repeat;
   width: 456px;
-  height: 304px;
+  height: 318px;
 }
 
 .fourth-grid-list {
@@ -269,6 +273,15 @@ h1, h2, h3, h4 {
   align-content: center;
   justify-items: center;
 }
+
+.fourth-grid-list-items:first-child {
+  margin-top: 2rem;
+}
+
+.fourth-grid-list-items:last-child {
+  margin-top: -1rem;
+}
+
 .fourth-grid-list-items h3 {
   font-size: 1.8461538462em;
   color: #00b39b;
