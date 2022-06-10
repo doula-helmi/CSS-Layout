@@ -325,11 +325,7 @@ h4 {
   padding: 0;
 }
 
-.slide-desc {
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem 0 1rem;
-}
+
 
 /*sixth section*/
 .sixth-section {
@@ -364,6 +360,9 @@ h4 {
   font-weight: 400;
   line-height: 1.6666666667;
   color: #747474;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0 1rem;
 }
 
 .small {
